@@ -1,0 +1,5 @@
+include ':infrastructure:deviceHardware'
+include ':infrastructure:dataAccess'
+include ':domain'
+include ':app'
+rootProject.name = "Hilt Dependency Injection"
