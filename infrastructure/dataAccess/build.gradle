@@ -21,6 +21,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "integrationType"
+    productFlavors {
+        real {
+            dimension "integrationType"
+        }
+
+        mock {
+            dimension "integrationType"
+        }
+    }
 }
 
 dependencies {
